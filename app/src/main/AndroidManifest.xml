@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+<!--    <uses-permission android:name="android.permission.INTERNET" />-->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".MyApp"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ComPdfExample"
+        tools:targetApi="31">
+
+        <meta-data
+            android:name="compdfkit_key"
+            android:value="SliOQG4TMl4ugP5+Wk6r5sun9j3WU9PfXzUxvtK+Rv4VqfREBvFpsokeoTJXxkpw5fZbkwaG25orNwQ2ZBG9xjRXbyyeuOyDhsTZ/+9t43hCgy3Km3g6YoE+SDZrLBHLwFpwLjg85iV5f/uAUy1YFewfEp949wsodecX/fMPSKlvPTHCxJMSXZszJMZQKy62dVuScQdzBNy2Ew4/fQJnbDLc54Tsv5Lq/KwWBSdKwDoEbuHQ+KseZMYCfW3i6b7EMO15FDqrsEiKuSGh7hxanB5Uh2Uv09sxhXLznuHt8fHgcBTzBfEuE2fAqQTYZnulZ0HR3svKfAT+cLy689joM68kD+Q9C95FZo3W7DLPF5KOumuA9Mk+OaEvZYH9jCTlpKC+YY6C87eehfjV9+dpD73un93BkGFbpQ16S3Gr3iIVMTJpAcl9mjM4GruTN63aXxMCeZuIRbq0gWTv3E1F+w2g+uKHp2YAmLF/pXYTXJLvPocoYjPv3BlY4Ie+tovu9sJuLTkvUH14KdSeOPJI6T0UCQV2l+Zvykq1AAp+LACVeCrQZggTml/lXlaXxIPSZ06k/LIiIfVGRMg/YofFAR5ezGr87UQdLLohm/oRtekmKpcPydl2DnlFmlAOfIib4vQVvGSvm2JyN2P2RUqvqdEFluqEmixMiwUIyYDY+R0DjkS1Q1UYC+Rs+dT6KdXYP50ms0YtnB/OPQNU/24yCLydXB0kjQBStl6CKs4egh7hGytevJUZXlTecoXwVN4RW8/aOp1pGeFKODOr/fsgKQ==" />
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
